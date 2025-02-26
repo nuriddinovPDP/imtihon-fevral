@@ -26,10 +26,10 @@ function App() {
       element: <PrivatePage />,
     },
 
-    // {
-    //   index: true,
-    //   element: <Navigate to="/login" replace />,
-    // },
+    {
+      index: true,
+      element: <Navigate to="/login" replace />,
+    },
   ]);
   return (
     <>
